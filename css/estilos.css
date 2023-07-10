@@ -65,7 +65,7 @@ h3 {
 
 .title{
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
@@ -77,8 +77,8 @@ h3 {
     background-size: 100% 100%;
     background-position: center;
     overflow: visible;
-    width: 30rem;
-    height: 6rem;
+    width: 25rem;
+    height: 5rem;
 }
 
 .boxRecetas {
@@ -170,6 +170,7 @@ h3 {
     padding: 20px;
     color: #333;
     text-align: center;
+    border-top:  1rem solid rosybrown;
 }
 
 .footer-container {
@@ -224,6 +225,7 @@ h3 {
 
 .navbar {
     background-color: #F76C5E;
+    border-bottom: 1rem solid rosybrown;
 }
 
 .navbar h1 {
@@ -233,4 +235,31 @@ h3 {
 .navbar a {
     font-size: 1.5rem;
     color: black;
+}
+
+.nav-item {
+    font-family: handlee;
+    padding-left: 2rem;
+}
+
+.nav-item a {
+    font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+    border-bottom: 0.1rem solid white;
+}
+
+.navbar-text {
+    padding-right: 3rem;
+    font-family: handlee;
+}
+
+.navbar-text h1 {
+    border: 0.2rem solid white;
+    border-radius: 5%;
+}
+
+.logo {
+    width: 5rem;
 }
