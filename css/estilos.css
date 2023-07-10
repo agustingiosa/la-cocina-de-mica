@@ -16,6 +16,27 @@ h3 {
     font-family: lobster two;
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.btn-top:hover {
+    background-color: #333;
+    color: #fff;
+}
+
 .banner {
     display: flex;
     justify-content: center;
@@ -88,6 +109,7 @@ h3 {
     text-align: center;
     margin-bottom: 2rem;
     border-radius: 1%;
+    padding-top: 2rem;
 }
 
 .imagenMica {
@@ -107,10 +129,15 @@ h3 {
     background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 2rem;
     border-radius: 1%;
+    transition: transform 0.3s ease;
 }
 
 .boxSobreMi p {
     width: 30rem;
+}
+
+.boxSobreMi:hover {
+    transform: scale(1.1);
 }
 
 .imagenCreaciones {
@@ -126,6 +153,11 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.boxCreaciones:hover {
+    transform: scale(1.1);
 }
 
 .botonVerMas {
@@ -135,6 +167,7 @@ h3 {
     background-color: #F76C5E;
     border: 0.2rem solid white;
     margin-bottom: 1rem;
+    border-radius: 15%;
 }
 
 .botonVerMas p {
@@ -149,7 +182,11 @@ h3 {
 .videos {
     width: 30rem;
     margin: 2rem;
+    transition: transform 0.3s ease;
+}
 
+.videos:hover {
+    transform: scale(1.1);
 }
 
 .cursos h3{
@@ -161,6 +198,11 @@ h3 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.textoCursos:hover {
+    transform: scale(1.1);
 }
 
 /*footer*/
@@ -187,11 +229,14 @@ h3 {
 .footer h3 {
     font-size: 18px;
     margin-bottom: 10px;
+    text-decoration: underline;
+    color: black;
 }
 
 .footer p {
     font-size: 14px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .social-media {
@@ -235,6 +280,11 @@ h3 {
 .navbar a {
     font-size: 1.5rem;
     color: black;
+    transition: transform 0.3s ease;
+}
+
+.navbar a:hover{
+    transform: scale(1.1);
 }
 
 .nav-item {

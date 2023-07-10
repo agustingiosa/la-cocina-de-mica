@@ -24,16 +24,16 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre mi</a>
+                            <a class="nav-link" href="#llamadoSM">Sobre mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Mis creaciones</a>
+                            <a class="nav-link" href="#llamadoC">Cursos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Recetas</a>
+                            <a class="nav-link" href="#llamadoMC">Mis creaciones</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cursos</a>
+                            <a class="nav-link" href="#llamadoR">Recetas</a>
                         </li>
                     </ul>
                     <span class="navbar-text">
@@ -43,6 +43,9 @@
             </div>
         </nav>
     </header>
+    <div>
+        <a href="#" class="btn-top">Volver arriba</a>
+    </div>
     <main class="diseño">
         <section class="container">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -53,7 +56,7 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section id="llamadoSM" class="container">
             <div>
                 <h2 class="title">¿Quien soy?</h2>
             </div>
@@ -64,7 +67,7 @@
                     Tengo 25 años y me encanta cocinar, pero sobre todas las cosas compartir todo lo que se para que puedas aprender y disfrutar tanto de la cocina como lo disfruto yo!</p>
             </div>
         </section>
-        <section class="container ">
+        <section id="llamadoC" class="container">
             <div>
                 <h2 class="title">Cursos</h2>
             </div>
@@ -95,7 +98,7 @@
             </p></div>
             </div>
         </section>
-        <section class="container creacioness">
+        <section id="llamadoMC" class="container creacioness">
             <div>
                 <h2 class="title">Mis creaciones</h2>
             </div>
@@ -107,23 +110,17 @@
                     <div class="col boxCreaciones">
                         <img class="imagenCreaciones" src="./img/alf maicena.jpg" alt="">
                         <p>Alfajor de maicena</p>
-                        <button class="botonVerMas">
-                            <p>Ver mas</p>
-                        </button>
+                        <a href="https://www.instagram.com/p/CsCnH7wpwuj/" target="_blank"><button class="botonVerMas" ><p>Ver mas</p></button></a>
                     </div>
                     <div class="col boxCreaciones">
                         <img class="imagenCreaciones" src="./img/torta choco.jpg" alt="">
                         <p>Torta chocolate</p>
-                        <button class="botonVerMas">
-                            <p>Ver mas</p>
-                        </button>
+                        <a href="https://www.instagram.com/p/CsCnH7wpwuj/" target="_blank"><button class="botonVerMas" ><p>Ver mas</p></button></a>
                     </div>
                     <div class="col boxCreaciones">
                         <img class="imagenCreaciones" src="./img/alfajor.jpg" alt="">
                         <p>Alfajorcitos</p>
-                        <button class="botonVerMas">
-                            <p>Ver mas</p>
-                        </button>
+                        <a href="https://www.instagram.com/p/CsCnH7wpwuj/" target="_blank"><button class="botonVerMas" ><p>Ver mas</p></button></a>
                     </div>
                 </div>
                 <div>
@@ -131,21 +128,26 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section id="llamadoR" class="container">
             <div>
                 <h2 class="title">Recetas</h2>
             </div>
             <div class="boxRecetas">
-                <div class="row ">
-                    <div class="col ">
-                        <iframe  class="videos" width="560" height="315" src="https://www.youtube.com/embed/lJA-lg0q5i8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                    <div class="col">
-                        <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/5bWEAJN54vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                </div>
                 <div>
-                    <p>Para ver todas las recetas <a href="https://www.youtube.com/@Lacocinademica">pulsa aquí</a></p>
+                    <div>
+                        <h3>Destacadas</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <iframe  class="videos" width="560" height="315" src="https://www.youtube.com/embed/lJA-lg0q5i8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                        <div class="col">
+                            <iframe class="videos" width="560" height="315" src="https://www.youtube.com/embed/5bWEAJN54vg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Para ver todas las recetas <a href="https://www.youtube.com/@Lacocinademica">pulsa aquí</a></p>
+                    </div>
                 </div>
             </div>
         </section>
