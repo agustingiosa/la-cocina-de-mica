@@ -43,7 +43,7 @@ a {
     align-items: center;
     width: 80rem;
     height: 30rem;
-    margin: 2rem;
+    margin-top: 1rem;
     border: 1rem solid #F76C5E;
 }
 
@@ -138,7 +138,7 @@ a {
 }
 
 .boxSobreMi:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 .imagenCreaciones {
@@ -158,7 +158,7 @@ a {
 }
 
 .boxCreaciones:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 .botonVerMas {
@@ -187,7 +187,7 @@ a {
 }
 
 .videos:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 .cursos h3{
@@ -203,7 +203,7 @@ a {
 }
 
 .textoCursos:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 
 /*footer*/
@@ -319,11 +319,53 @@ a {
     transform: scale(1.2);
 }
 
-@media (max-width: 414px) {
+@media (max-width: 1343px) {
+    .banner{
+        width:70rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 1155px) {
+    .banner{
+        width: 60rem;
+        height: 30rem;
+    }
+}
+
+@media (max-width: 1003px) {
+    .banner{
+        width: 50rem;
+        height: 27rem;
+    }
+}
+
+@media (max-width: 893px) {
+    .banner{
+        width:45rem;
+        height: 20rem;
+    }
+    .boxSobreMi{
+        width: 40rem;
+        flex-direction: column;
+    }
+    .boxSobreMi p {
+        text-align: center;
+        width: 24rem;
+    }
+    .boxRecetas{
+        width: 25rem;
+        padding: 0;
+    }
+    .videos{
+        width: 20rem;
+    }
+}
+
+@media (max-width: 741px) {
     .banner{
         width:25rem;
         height: 15rem;
-        margin: 0;
     }
     .boxSobreMi{
         width: 25rem;
@@ -340,8 +382,40 @@ a {
     .videos{
         width: 20rem;
     }
-    div .col {
+}
+
+@media (max-width: 433px) {
+    .title{
+        width: 17rem;
+        font-size: 2rem;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        width:23rem;
+        height: 15rem;
+    }
+    .boxSobreMi .imagenMica{
+        width: 15rem;
+        height: 20rem;
+    }
+    .boxSobreMi{
+        width: 20rem;
+        flex-direction: column;
+    }
+    .boxSobreMi p {
+        text-align: center;
+        width: 19rem;
+    }
+    .boxRecetas{
+        width: 20rem;
         padding: 0;
-        width: 25rem;
+    }
+    .videos{
+        width: 15rem;
+        height: 15rem;
     }
 }
+
