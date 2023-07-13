@@ -272,6 +272,9 @@ a {
 .navbar {
     background-color: #F76C5E;
     border-bottom: 1rem solid rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar h1 {
@@ -289,8 +292,8 @@ a {
 }
 
 .nav-item {
+    margin: 1rem;
     font-family: handlee;
-    padding-left: 2rem;
 }
 
 .nav-item a {
@@ -302,7 +305,6 @@ a {
 }
 
 .navbar-text {
-    padding-right: 3rem;
     font-family: handlee;
 }
 
@@ -315,4 +317,31 @@ a {
     width: 5rem;
     border-radius: 100%;
     transform: scale(1.2);
+}
+
+@media (max-width: 414px) {
+    .banner{
+        width:25rem;
+        height: 15rem;
+        margin: 0;
+    }
+    .boxSobreMi{
+        width: 25rem;
+        flex-direction: column;
+    }
+    .boxSobreMi p {
+        text-align: center;
+        width: 24rem;
+    }
+    .boxRecetas{
+        width: 25rem;
+        padding: 0;
+    }
+    .videos{
+        width: 20rem;
+    }
+    div .col {
+        padding: 0;
+        width: 25rem;
+    }
 }
