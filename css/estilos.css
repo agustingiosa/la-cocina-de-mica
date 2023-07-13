@@ -86,6 +86,11 @@ a {
     border-radius: 1%;
 }
 
+.red {
+    width: 5rem;
+    height: 5rem;
+}
+
 .title{
     text-align: center;
     font-size: 3rem;
