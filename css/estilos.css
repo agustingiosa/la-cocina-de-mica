@@ -2,6 +2,7 @@
 
 .diseño {
     background-image: url(../img/fondo\ 2.png);
+    background-size: cover
 }
 
 p {
